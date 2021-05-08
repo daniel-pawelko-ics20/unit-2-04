@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ICS2O-unit-2-04">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Daniel Pawelko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ICS2O-unit-2-04</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Area and Perimeter of a Rectangle, with JS</h1>
+    <p>
+      <h2>Formulas</h2>
+      <img src="./images/picture.jpg" alt="Rectangle">
+      <h3>A = L x W</h3>
+      <h3>P = 2x (L + W)</h3>
+      <p>Please enter integers for dimensions:</p>
+      <form action="javascript:userInputClick()">
+        <label for="slength">Length:</label>
+        <input type="number" id="lengthEntered" placeholder="e.g. 3">
+        <label for="slength">mm</label>
+        <br>
+        <br>
+        <label for="swidth">Width:</label>
+        <input type="number" id="widthEntered" placeholder="e.g. 5">
+        <label for="swidth">mm</label>
+        <br>
+        <br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+    <div id="Area"></div>
+    <div id="Perimeter"></div>
+  </body>
+</html>

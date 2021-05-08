@@ -1,0 +1,30 @@
+body {
+  background-color: lightcyan;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blanchedalmond;
+}
+
+h2 {
+  color: greenyellow;
+}
+
+h3 {
+  color: lightpink;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  float: right;
+}
+
+#address {
+  color: yellowgreen;
+}
+
+div {
+  color: pink;
+}
